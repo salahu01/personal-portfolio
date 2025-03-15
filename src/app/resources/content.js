@@ -50,9 +50,9 @@ const social = [
 
 const home = {
   label: "Home",
-  title: `${person.name}'s Portfolio`,
-  description: `Innovative software architect and AI enthusiast, transforming ideas into high-impact digital solutions.`,
-  headline: <>Building Scalable Systems & AI-Driven Solutions</>,
+  title: `${person.name} | Architecting Scalable & AI-Powered Solutions`,
+  description: `Empowering businesses with cutting-edge software architecture, AI-driven automation, and cross-platform solutions.`,
+  headline: <>Building Intelligent Systems & Scalable Architectures</>,
   subline: (
     <>
       Hi, I'm Muhammad Salahudeen— a software architect and full-stack developer with over 5 years of experience.

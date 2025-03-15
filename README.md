@@ -1,6 +1,6 @@
 # **Build your portfolio with Once UI's Magic Portfolio**
 
-View the [demo here](https://demo.magic-portfolio.com).
+View the [demo here](https://swalahu.com).
 
 ![Magic Portfolio](public/images/cover.png)
 

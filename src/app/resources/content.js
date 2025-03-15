@@ -51,8 +51,8 @@ const social = [
 const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
-  description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Software Architect and AI Enthusiast</>,
+  description: `A showcase of my expertise in software architecture, AI, and cross-platform development.`,
+  headline: <>Software Architect • AI Innovator • Full-Stack Developer</>,
   subline: (
     <>
       I'm Muhammad Salahudeen, a software architect and full-stack developer with 5+ years of experience.

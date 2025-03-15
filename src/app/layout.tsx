@@ -12,14 +12,15 @@ import { Source_Code_Pro } from "next/font/google";
 import { person, home } from "@/app/resources/content";
 import { Background, Column, Flex, ToastProvider } from "@/once-ui/components";
 
+
 export async function generateMetadata() {
   return {
     metadataBase: new URL(`https://${baseURL}`),
-    title: `${person.firstName} | Software Developer & Architect`,
-    description: "I design and build high-performance applications using Flutter, AI, and scalable architecture.",
+    title: `${person.firstName} | Software Architect & AI Innovator"`,
+    description: "Experienced software architect and full-stack developer specializing in AI, cross-platform applications, and scalable solutions.",
 
     openGraph: {
-      title: `${person.firstName} | Software Developer & Architect`,
+      title: `${person.firstName} | Software Architect & AI Innovator"`,
       description: "I create production-ready software solutions, leveraging AI and modern tech stacks.",
       url: `https://${baseURL}`,
       siteName: `${person.firstName}'s Portfolio`,
@@ -27,10 +28,10 @@ export async function generateMetadata() {
       type: "website",
       images: [
         {
-          url: `https://${baseURL}/images/preview.png`, // Replace with your actual preview image URL
+          url: `${person.firstName}/images/preview.png`, // Replace with your actual preview image URL
           width: 1200,
           height: 630,
-          alt: "Salahu's Portfolio Website Preview",
+          alt: "Salahu's Portfolio",
         }
       ],
     },

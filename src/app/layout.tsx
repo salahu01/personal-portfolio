@@ -15,16 +15,35 @@ import { Background, Column, Flex, ToastProvider } from "@/once-ui/components";
 export async function generateMetadata() {
   return {
     metadataBase: new URL(`https://${baseURL}`),
-    title: home.title,
-    description: home.description,
+    title: `${person.firstName} | Software Developer & Architect`,
+    description: "I design and build high-performance applications using Flutter, AI, and scalable architecture.",
+
     openGraph: {
-      title: `${person.firstName}'s Portfolio`,
-      description: "Portfolio website showcasing my work.",
-      url: baseURL,
+      title: `${person.firstName} | Software Developer & Architect`,
+      description: "I create production-ready software solutions, leveraging AI and modern tech stacks.",
+      url: `https://${baseURL}`,
       siteName: `${person.firstName}'s Portfolio`,
       locale: "en_US",
       type: "website",
+      images: [
+        {
+          url: `https://${baseURL}/images/preview.png`, // Replace with your actual preview image URL
+          width: 1200,
+          height: 630,
+          alt: "Salahu's Portfolio Website Preview",
+        }
+      ],
     },
+
+    twitter: {
+      card: "summary_large_image",
+      title: `${person.firstName} | Software Developer & Architect`,
+      description: "Building innovative software solutions using AI and Flutter.",
+      site: "@hwak01",  // Replace with your Twitter username if applicable
+      creator: "@hwak01",
+      images: [`https://${baseURL}/images/preview.png`],
+    },
+
     robots: {
       index: true,
       follow: true,
@@ -35,6 +54,11 @@ export async function generateMetadata() {
         "max-image-preview": "large",
         "max-snippet": -1,
       },
+    },
+
+    icons: {
+      icon: '/favicon.ico',
+      apple: '/apple-touch-icon.png', // For better Apple device support
     },
   };
 }
@@ -50,8 +74,8 @@ type FontConfig = {
 };
 
 /*
-	Replace with code for secondary and tertiary fonts
-	from https://once-ui.com/customize
+  Replace with code for secondary and tertiary fonts
+  from https://once-ui.com/customize
 */
 const secondary: FontConfig | undefined = undefined;
 const tertiary: FontConfig | undefined = undefined;

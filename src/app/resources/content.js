@@ -92,41 +92,83 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Fegno Technologies",
+        timeframe: "2023 - Present",
+        role: "Software Engineer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Led cross-functional development teams, driving collaboration and innovation while ensuring the timely delivery
+            of high-quality applications that met and exceeded client expectations.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Successfully released and maintained multiple Flutter applications, managing the entire lifecycle from concept to
+            deployment, resulting in consistently high user engagement and satisfaction.
+          </>,
+          <>
+            Architected and optimized CI/CD pipelines, revolutionizing automation for build, test, and deployment processes,
+            which led to faster release cycles and minimized manual errors.
+          </>,
+          <>
+            Seamlessly integrated a range of third-party services and APIs, expanding application capabilities and delivering
+            enhanced user experiences through robust external connections.
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
+            src: "/images/projects/fegno/discipl/cover.jpg",
+            alt: "Descipl Project",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/fegno/easy_care/cover.jpg",
+            alt: "EasyCare Project",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/fegno/fims/cover.jpg",
+            alt: "EasyCare Project",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/fegno/shopprix/cover.jpg",
+            alt: "EasyCare Project",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/fegno/celestial/cover.png",
+            alt: "Celestial Project",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/fegno/tezora/cover.png",
+            alt: "EasyCare Project",
             width: 16,
             height: 9,
           },
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "SciWiz Innovations",
+        timeframe: "2021 - 2023",
+        role: "Software Engineer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Executed flawless pixel-perfect UI conversions from intricate design mockups to fully functional Flutter
+            applications, achieving superior visual fidelity and an exceptional user experience.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Engineered a comprehensive suite of testing strategies, including unit, integration, and widget testing, to ensure
+            reliable, high-quality code and deliver robust, bug-free applications.
+          </>,
+          <>
+            Mentored and guided junior developers, fostering a collaborative learning environment that accelerated skill
+            development and improved overall team performance..
           </>,
         ],
         images: [],
@@ -135,36 +177,71 @@ const about = {
   },
   studies: {
     display: true, // set to false to hide this section
-    title: "Studies",
+    title: "Education",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Manipal University Jaipur",
+        description: <>
+          Earned a strong foundation in software engineering, focusing on
+          full-stack development, system architecture, and modern programming paradigms.
+        </>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Ma'din Higher Secondary School",
+        description: <>
+          Completed higher secondary education with a specialization in software engineering,
+          developing a passion for coding, problem-solving, and technology-driven innovation.
+        </>,
       },
     ],
   },
   technical: {
     display: true, // set to false to hide this section
-    title: "Technical skills",
+    title: "Technical Skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
-        // optional: leave the array empty if you don't want to display images
+        title: "Flutter Developer",
+        description: (
+          <>
+            Experienced in building high-performance, cross-platform applications
+            using Flutter. Proficient in crafting beautiful UIs, optimizing app
+            performance, and integrating seamless animations.
+          </>
+        ),
         images: [
           {
             src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
+            alt: "Flutter App Showcase",
             width: 16,
             height: 9,
           },
           {
             src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
+            alt: "Flutter UI Design",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "Figma",
+        description: (
+          <>
+            Skilled in designing intuitive user interfaces with Figma.
+            Expertise in creating prototypes, wireframes, and design systems for
+            efficient development workflows.
+          </>
+        ),
+        images: [
+          {
+            src: "/images/projects/project-01/cover-02.jpg",
+            alt: "Figma Design Example",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/project-01/cover-03.jpg",
+            alt: "Figma Prototype",
             width: 16,
             height: 9,
           },
@@ -172,12 +249,17 @@ const about = {
       },
       {
         title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-        // optional: leave the array empty if you don't want to display images
+        description: (
+          <>
+            Proficient in developing scalable, SEO-friendly web applications
+            using Next.js. Experienced in server-side rendering, API integrations,
+            and optimizing performance for fast-loading websites.
+          </>
+        ),
         images: [
           {
             src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
+            alt: "Next.js Project",
             width: 16,
             height: 9,
           },
@@ -185,6 +267,7 @@ const about = {
       },
     ],
   },
+
 };
 
 const blog = {

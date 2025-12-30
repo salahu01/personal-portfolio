@@ -165,7 +165,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
             }}
           />
           <Flex fillWidth minHeight="16"></Flex>
-          <Header />
+          {/* <Header /> */}
           <Flex
             position="relative"
             zIndex={0}
